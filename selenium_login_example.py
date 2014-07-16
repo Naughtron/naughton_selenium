@@ -24,8 +24,8 @@ assert "Login" in driver.title
 username_box = driver.find_element_by_id('form__username')
 password_box = driver.find_element_by_id('form__password')
 #enter in the username 
-username_box.send_keys('warchief')
-password_box.send_keys('sp1d3rman')
+username_box.send_keys('TODO: add value in config')
+password_box.send_keys('TODO: add value in config')
 
 # find the login submit button 
 log_in_submit = driver.find_element_by_css_selector('.text-right>input')
